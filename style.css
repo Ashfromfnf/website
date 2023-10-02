@@ -1,9 +1,15 @@
 body{
     background-color: blueviolet;
     height: 9000px;
+    width: 5000px;
 }
 
 
+
+.bigone {
+    display: flex;
+    flex-wrap: nowrap;
+}
 
 .btn {  
     
