@@ -4,9 +4,10 @@ body{
 
 
 
-.btn {
+.btn {  
+    
     &:hover + .box {
-        transform: scale(1);
+        transform: scale(1) rotate(360deg);
         span {
             transform: translateY(0);
         }
@@ -17,7 +18,7 @@ body{
     background-color: blue;
     width: 500px;
     height: 500px;
-    transform: scale(0.1);
+    transform: scale(0.1) rotate(-3600deg) perspective(75px) rotateX(45deg);
     transition: transform 330ms ease-in-out;
     overflow: hidden;
     span {
