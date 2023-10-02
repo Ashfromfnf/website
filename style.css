@@ -8,7 +8,7 @@ body{
 
 .bigone {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: no;
 }
 
 .btn {  
@@ -52,7 +52,7 @@ body{
     background-color: blue;
     width: 500px;
     height: 500px;
-    transform: scale(0.1) rotate(-3600deg) perspective(75px) rotateX(45deg);
+    transform: scale(0.1) rotate(-3600deg) perspective(125px) rotateX(45deg) translateX(-600px);
     transition: transform 330ms ease-in-out;
     overflow: hidden;
     span {
