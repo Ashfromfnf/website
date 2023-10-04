@@ -11,7 +11,7 @@ body{
     flex-wrap: no;
 }
 
-.btn {  
+.butt {  
     
     display: flex;
     &:hover + .box {
